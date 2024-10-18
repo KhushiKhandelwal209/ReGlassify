@@ -1,0 +1,139 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+    background-color: rgb(153, 156, 153);
+}
+nav{
+    height: 20vh;
+    width: 100%;
+    /* border: 2px solid red; */
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(1, 77, 1);
+    position: sticky;
+    background-color: white;
+    z-index: 2;
+    
+}
+.navbar span{
+    margin-left: 15px;
+}
+.logo{
+    display: flex;
+    width: 40vw;
+    justify-content: space-around;
+    align-items: center;
+    margin: 20px;
+}
+.logo a{
+    text-decoration: none;
+    color: rgb(1, 48, 1);
+}
+
+.firstsec{
+    height: 120vh;
+    width: 100%;
+    /* border: 2px solid black; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ } 
+
+
+.form{
+    height: 90%;
+    width: 80%;
+    /* border: 2px solid red; */
+     display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 10px;
+    box-shadow: 2px 2px 10px 5px rgb(62, 62, 62);
+    background-color: rgb(196, 195, 195);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(0, 48, 0);
+ } 
+/* .loginform{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    /* border: 2px solid black; 
+    border-radius: 10px;
+    box-shadow: 2px 2px 10px 5px rgb(62, 62, 62);
+    background-color: rgb(196, 195, 195);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(0, 48, 0);
+} */
+.form h3{
+    padding: 30px;
+    padding-bottom: 20px;
+    font-size: 25px;
+    font-weight: 500;
+}
+.form input{
+    width: 60%;
+    height: 50px;
+    margin-right: 30px;
+    margin-top: 10px;
+    padding: 20px;
+    padding-right: 100px;
+    border-radius: 5px;
+    border: 1px solid rgb(108, 107, 107);
+}
+.buttons button{
+    margin: 30px;
+    /* margin-top: 30px; */
+    padding: 15px 40px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 10px 2px rgb(69, 69, 69);
+    color: white;
+    background-color: rgb(69, 69, 69);
+    
+}
+.form p{
+    padding-left: 30px;
+  
+}
+.name{
+display: flex;
+justify-content: center;
+align-items: center;
+    
+}
+/* .name input{
+margin-right: 10px; 
+    margin-top: 10px;
+    gap: 50px;
+    padding: 20px;
+    padding-right: 100px;
+    border-radius: 5px;
+    border: 1px solid rgb(108, 107, 107);
+} */
+.contact{
+    display: flex;
+}
+.city{
+    display: flex;
+}
+
+/* .name button{
+    margin: 30px;
+    /* margin-top: 30px; 
+    padding: 15px 40px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 10px 2px rgb(69, 69, 69);
+    color: white;
+    background-color: rgb(69, 69, 69);
+} */

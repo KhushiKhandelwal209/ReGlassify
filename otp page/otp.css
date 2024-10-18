@@ -1,0 +1,109 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+    background-color: rgb(153, 156, 153);
+}
+nav{
+    height: 20vh;
+    width: 100%;
+    /* border: 2px solid red; */
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(1, 77, 1);
+    position: sticky;
+    background-color: white;
+    z-index: 2;
+    
+}
+.navbar span{
+    margin-left: 15px;
+}
+.logo{
+    display: flex;
+    width: 40vw;
+    justify-content: space-around;
+    align-items: center;
+    margin: 20px;
+}
+.logo a{
+    text-decoration: none;
+    color: rgb(1, 48, 1);
+}
+
+.firstsec{
+    height: 80vh;
+    width: 100%;
+    /* border: 2px solid black; */
+    display: flex;
+}
+.text{
+    height: 100%;
+    width: 50%;
+    /* border: 2px solid red; */
+    display:flex ;
+    justify-content: center;
+    align-items: center;
+}
+.text h1{
+    text-align: center;
+    padding: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 700;
+    font-size: 40px;
+    margin: 20px;
+    color: rgb(1, 47, 1);
+    gap: 5px;
+}
+.form{
+    height: 100%;
+    width: 50%;
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.loginform{
+    height: 70%;
+    width: 80%;
+    /* border: 2px solid black; */
+    border-radius: 10px;
+    box-shadow: 2px 2px 10px 5px rgb(62, 62, 62);
+    background-color: rgb(196, 195, 195);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(0, 48, 0);
+}
+.loginform h3{
+    padding: 30px;
+    padding-bottom: 20px;
+    font-size: 25px;
+    font-weight: 500;
+}
+.loginform input{
+    width: 30px;
+    margin-right: 10px;
+    margin-top: 10px;
+    padding: 3px;
+    border-radius: 5px;
+    border: 1px solid rgb(108, 107, 107);
+}
+.buttons button{
+    margin: 30px;
+    /* margin-top: 30px; */
+    padding: 15px 40px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 10px 2px rgb(69, 69, 69);
+    color: white;
+    background-color: rgb(69, 69, 69);
+}
+.loginform p{
+    padding-left: 30px;
+  
+}
